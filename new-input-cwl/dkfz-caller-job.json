@@ -1,0 +1,55 @@
+{
+  "run-id": "run_id",
+  "tumor-bam":
+  {
+    "path":"https://dcc.icgc.org/api/v1/download?fn=/PCAWG/reference_data/data_for_testing/HCC1143_ds/HCC1143.bam",
+    "class":"File"
+  },
+  "normal-bam":
+  {
+    "path":"https://dcc.icgc.org/api/v1/download?fn=/PCAWG/reference_data/data_for_testing/HCC1143_ds/HCC1143_BL.bam",
+    "class":"File"
+  },
+  "reference-gz":
+  {
+    "path": "https://dcc.icgc.org/api/v1/download?fn=/PCAWG/reference_data/pcawg-dkfz/dkfz-workflow-dependencies_150318_0951.tar.gz",
+    "class": "File"
+  },
+  "delly-bedpe":
+  {
+    "path":"https://raw.githubusercontent.com/ICGC-TCGA-PanCancer/dkfz_dockered_workflows/2.0.0_cwl1.0/run_id.embl-delly_1-3-0-preFilter.20150318.somatic.sv.bedpe.txt",
+    "class":"File"
+  },
+  "germline_indel_vcf_gz": {
+    "path": "/home/xpy/job/pan-dkfz/output/germline.indel.vcf.gz",
+    "class": "File"
+  },
+  "somatic_snv_mnv_vcf_gz": {
+    "path": "/home/xpy/job/pan-dkfz/output/somatic.snv.mnv.vcf.gz",
+    "class": "File"
+  },
+  "germline_snv_mnv_vcf_gz": {
+    "path": "/home/xpy/job/pan-dkfz/output/germline.snv.mnv.vcf.gz",
+    "class": "File"
+  },
+  "somatic_cnv_tar_gz": {
+    "path": "/home/xpy/job/pan-dkfz/output/somatic.cnv.tar.gz",
+    "class": "File"
+  },
+  "somatic_cnv_vcf_gz": {
+    "path": "/home/xpy/job/pan-dkfz/output/somatic.cnv.vcf.gz",
+    "class": "File"
+  },
+  "somatic_indel_tar_gz": {
+    "path": "/home/xpy/job/pan-dkfz/output/somatic.indel.tar.gz",
+    "class": "File"
+  },
+  "somatic_snv_mnv_tar_gz": {
+    "path": "/home/xpy/job/pan-dkfz/output/somatic.snv.mnv.tar.gz",
+    "class": "File"
+  },
+  "somatic_indel_vcf_gz": {
+    "path": "/home/xpy/job/pan-dkfz/output/somatic.indel.vcf.gz",
+    "class": "File"
+  }
+}
