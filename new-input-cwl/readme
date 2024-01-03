@@ -1,1 +1,5 @@
 modified input files for dkfz cwl 
+
+wget -O dkfz-caller-job.json https://github.com/xxx58/dkfz_dockered_workflows/raw/develop/new-input-cwl/dkfz-caller-job.json
+wget -O dkfz-caller.cwl https://github.com/xxx58/dkfz_dockered_workflows/raw/develop/new-input-cwl/dkfz-caller.cwl
+nohup cwltool --debug --non-strict dkfz-caller.cwl dkfz-caller-job.json > pcawg-dkfz--caller.log 2>&1 &
