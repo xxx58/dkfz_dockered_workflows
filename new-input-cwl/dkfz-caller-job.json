@@ -21,35 +21,35 @@
     "class":"File"
   },
   "germline_indel_vcf_gz": {
-    "path": "/home/xpy/job/pan-dkfz/output/germline.indel.vcf.gz",
+    "path": "/home/xpy/job/pan-dkfz/output",
     "class": "File"
   },
   "somatic_snv_mnv_vcf_gz": {
-    "path": "/home/xpy/job/pan-dkfz/output/somatic.snv.mnv.vcf.gz",
+    "path": "/home/xpy/job/pan-dkfz/output",
     "class": "File"
   },
   "germline_snv_mnv_vcf_gz": {
-    "path": "/home/xpy/job/pan-dkfz/output/germline.snv.mnv.vcf.gz",
+    "path": "/home/xpy/job/pan-dkfz/output",
     "class": "File"
   },
   "somatic_cnv_tar_gz": {
-    "path": "/home/xpy/job/pan-dkfz/output/somatic.cnv.tar.gz",
+    "path": "/home/xpy/job/pan-dkfz/output",
     "class": "File"
   },
   "somatic_cnv_vcf_gz": {
-    "path": "/home/xpy/job/pan-dkfz/output/somatic.cnv.vcf.gz",
+    "path": "/home/xpy/job/pan-dkfz/output",
     "class": "File"
   },
   "somatic_indel_tar_gz": {
-    "path": "/home/xpy/job/pan-dkfz/output/somatic.indel.tar.gz",
+    "path": "/home/xpy/job/pan-dkfz/output",
     "class": "File"
   },
   "somatic_snv_mnv_tar_gz": {
-    "path": "/home/xpy/job/pan-dkfz/output/somatic.snv.mnv.tar.gz",
+    "path": "/home/xpy/job/pan-dkfz/output",
     "class": "File"
   },
   "somatic_indel_vcf_gz": {
-    "path": "/home/xpy/job/pan-dkfz/output/somatic.indel.vcf.gz",
+    "path": "/home/xpy/job/pan-dkfz/output",
     "class": "File"
   }
 }
